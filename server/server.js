@@ -15,7 +15,7 @@ app.use(cors({
 }))
 
 app.use(express.json())
-app.post('/api/inngest',serve({client: inngest, functions}))
+app.use('/api/inngest',serve({client: inngest, functions}))
 app.get('/', (req, res) => {
       res.json({
             success: true,
