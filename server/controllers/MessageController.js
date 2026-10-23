@@ -1,6 +1,6 @@
 import Message from '../models/Message.js';
 import fs from 'fs';
-import imagekit from '../config/imageKit.js';
+import imagekit from '../config/imagekit.js';
 import User from '../models/User.js';
 
 //Create an empty object to store Server Side Event Connections

@@ -1,6 +1,6 @@
 import User from "../models/User.js";
 import fs from "fs";
-import imagekit from "../config/imageKit.js";
+import imagekit from "../config/imagekit.js";
 import Connection from "../models/Connection.js";
 import Post from "../models/Post.js";
 
